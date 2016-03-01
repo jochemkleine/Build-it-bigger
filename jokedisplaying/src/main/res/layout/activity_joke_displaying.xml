@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.jochemkleine.com.jokedisplaying.JokeDisplayingActivity"
+    android:background="@drawable/cristo_redentor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:paddingTop="50dp"
+        android:text="What's a pirate's least favourite letter?
+    \n Dear Sir,
+    \n We are writing to you because you have violated copyright ..."
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#F0000000"
+        android:padding="10dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/jokeText"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jokeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:gravity="bottom"
+        android:textColor="#F0000000"
+        android:text="More Jokes!"
+        android:id="@+id/quit"/>
+</RelativeLayout>
