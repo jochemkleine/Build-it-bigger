@@ -1,0 +1,1 @@
+include ':app', ':JokeTelling', ':jokedisplaying', ':backend', ':backendTest.gradle'
